@@ -28,19 +28,18 @@
 }
 
 footer{
-	height:60px;
+	height:140px;
 	padding-top:10px;
 	background-color: gray;
 }
 
-footer > .container > .row > div > p{
-	margin:0px;
-	color:white;
+footer > h4 > a{
+  color:white;
 } 
 
-footer > .container > .row  > p > a{
+footer > .container > .row > div > h4{
 	margin:0px;
-	color:white !important;
+	color:white;
 } 
 
 html, body, #map-canvas {
