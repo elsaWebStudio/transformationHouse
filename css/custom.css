@@ -34,15 +34,18 @@ footer{
 }
 
 footer > h4 > a{
+  font-family: 'Open Sans', sans-serif;
   color:white;
 } 
 
 footer > .container > .row > div > h4{
+  font-family: 'Open Sans', sans-serif;
 	margin:0px;
 	color:white;
 } 
 
 html, body, #map-canvas {
+    font-family: 'Open Sans', sans-serif;
     position:relative;
     height: 500px;
     width:100%;
@@ -85,6 +88,11 @@ html, body, #map-canvas {
   padding-right: 15px;
 }
 
+.navbar-static-top {
+z-index: 1000;
+border-width: 0 0 0px;
+}
+
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
@@ -100,7 +108,8 @@ html, body, #map-canvas {
   margin-bottom: 20px;
 }
 .marketing h2 {
-  font-weight: normal;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
 }
 .marketing .col-lg-4 p {
   margin-left: 10px;
